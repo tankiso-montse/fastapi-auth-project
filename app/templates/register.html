@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="../../static/css/styles.css">
+</head>
+<body>
+    <div class="register-container">
+        <div class="register-card">
+            <h2>Create an Account</h2>
+            <form action="/register" method="post">
+                <div class="form-group">
+                    <input type="text" id="first-name" name="first_name" placeholder="First Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="last-name" name="last_name" placeholder="Last Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" name="email" placeholder="Email" required>
+                </div>
+                <div class="form-group">
+                    <input type="password" id="password" name="password" placeholder="Password" required>
+                </div>
+                <div class="form-group">
+                    <input type="password" id="confirm-password" name="confirm_password" placeholder="Confirm Password" required>
+                </div>
+                <button type="submit" class="submit-button">Register</button>
+            </form>
+            <p>Already signed up? <a href="login.html">Login here</a></p>
+        </div>
+    </div>
+</body>
+</html>
